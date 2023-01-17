@@ -1,0 +1,9 @@
+.fixed {
+    position: fixed;
+}
+.bcolor {
+    background-color: rgb(125,70,153);
+}
+.color {
+    color: rgb(125,70,153);
+}
