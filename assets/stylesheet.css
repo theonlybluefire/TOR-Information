@@ -2,8 +2,71 @@
     position: fixed;
 }
 .bcolor {
-    background-color: rgb(125,70,153);
+    background-color: rgb(125,70,153) ;
 }
 .color {
-    color: rgb(125,70,153);
+    color: rgb(125,70,153) !important;
+}
+@media screen and (max-width:700px) {
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.load1{
+    animation: load1_ 2s;
+}
+@keyframes load1_ {
+    0%{
+        transform: translate(0,-20%);
+        opacity: 0;
+    }
+    50%{
+    
+    }
+    100% {
+        
+    }
+}
+.navbarOne {
+    border-radius: 10px !important ;
+}
+.body{
+    background-color: rgb(51, 50, 51) !important;
+}
+
+.border {
+    border-radius: 10px;
+}
+.BoxOne {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.BoxTwo {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+}
+.BoxThree {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+}
+.SourceBox {
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    transition: 0.5s;
 }

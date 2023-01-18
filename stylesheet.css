@@ -1,0 +1,40 @@
+.load1{
+    animation: load1_ 1s;
+}
+@keyframes load1_ {
+    0%{
+        transform: translate(0,-20%);
+        opacity: 0;
+    }
+    50%{
+    
+    }
+    100% {
+        
+    }
+}
+
+.load2{
+    animation: load2_ 2s;
+}
+@keyframes load2_ {
+    0%{
+        transform: translate(0,-20%);
+        opacity: 0;
+    }
+    50%{
+    
+    }
+    100% {
+        
+    }
+}
+.body {
+    background-color: rgb(41, 41, 41);
+}
+.h {
+    color: rgb(125,70,153) !important;
+}
+.color {
+    background-color: rgb(125,70,153) !important;
+}
